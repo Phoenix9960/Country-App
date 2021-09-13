@@ -7,27 +7,6 @@ export const Countries = () => {
     
     const url = 'https://restcountries.eu/rest/v2/all';
     const [countries, setCountries] = useState([]);
-        
-    //Hacer algon con la paginacion
-
-    //intento sepa
-    // const [pages, setPages] = useState([])
-    // const [pointer] = useState(0)
-
-    // const pagination = ( arr ) => {
-    //     const a =[]
-
-    //     for( let i=0; i<arr.length; i+=20 ){
-    //         a.push( arr.slice( i, i+20 ) );
-    //     }
-
-    //     return a;
-    // }
-
-    // {
-    //     setPages( pagination(data) )
-    //     setCountries( pages[pointer] );
-    // }
 
     useEffect(() => {
         fetch( url )

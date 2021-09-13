@@ -23,7 +23,7 @@ export const DetailsCountry = () => {
     useEffect( () => {
 
         handleDetailsCountry();
-    }, [])
+    })
 
     console.log(detailsCountry);
 
