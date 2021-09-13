@@ -1,0 +1,19 @@
+
+.DetailsPage {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.nameCountry {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.DetailsPage img {
+    max-width: 50%;
+    border: solid 1px black;
+}

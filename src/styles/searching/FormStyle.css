@@ -1,0 +1,16 @@
+
+.SearchinPage {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+form {
+    width: 80%;
+    padding: 15px;
+}
+
+form button {
+    margin-top: 15px
+}
